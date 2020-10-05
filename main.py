@@ -15,8 +15,8 @@ Mes = {
     'DICIEMBRE' : 12
 }
 
-dia = int(input('Ingresa únicamente el número del día de tu nacimiento (entero): '))
-mes = int(input('Ingresa el número del mes de tu cumpleaños:  '))
+dia = int(input('Ingresa unicamente el numero del día de tu nacimiento (entero): '))
+mes = int(input('Ingresa el numero del mes de tu cumpleaños:  '))
 
 if (mes == Mes['MARZO'] and dia >= 21) or (mes == Mes['ABRIL'] and dia <= 20):
     print("aries")
